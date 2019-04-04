@@ -17,7 +17,7 @@ Usage
 1. Upload the kube-bench-node-scan.sh script to Cloud Shell VM
 2. Modify the CONTAINER and ZONE variables to point to your cluster
 3. Run the script
-4. Review the output log file
+4. Review the output kube-bench-node-scan.log file
 
 The script
 1. clones kube-bench
