@@ -4,19 +4,11 @@
 # Ref. https://github.com/aquasecurity/kube-bench
 # Ref. https://github.com/aquasecurity/kube-bench/blob/master/LICENSE
 
-# kube-bench-node scan for GKE worker nodes
-# QUICK PROOF OF CONCEPT. VERIFY IT MEETS YOUR NEEDS AND USE AT YOUR OWN RISK
-# Script to be run on Google Cloud Shell configured to point to the 
-# project hosting the GKE nodes
-# Assumes user has needed access rights
-# This script deploys a kube-bench pod on the cluster and runs a job one time
-# Ref. https://github.com/aquasecurity/kube-bench
-
 set -x
 
 git clone --single-branch --branch=master https://github.com/aquasecurity/kube-bench.git
 
-# Point to the Cluster to be analysed
+# TODO Point to the Cluster to be analysed
 CLUSTER= #e.g. standard-cluster-1
 ZONE= 	 #e.g. us-central1-a
 
