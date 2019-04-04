@@ -1,4 +1,8 @@
 #!/bin/bash
+# This script is unlicenced, however it uses kube-bench which is a Third Party open source
+# project covered under the Apache Licence.
+# Ref. https://github.com/aquasecurity/kube-bench
+# Ref. https://github.com/aquasecurity/kube-bench/blob/master/LICENSE
 
 # kube-bench-node scan for GKE worker nodes
 # QUICK PROOF OF CONCEPT. VERIFY IT MEETS YOUR NEEDS AND USE AT YOUR OWN RISK
