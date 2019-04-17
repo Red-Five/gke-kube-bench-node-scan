@@ -5,7 +5,7 @@ Ref. https://github.com/aquasecurity/kube-bench
 
 Usage
 
-Edit the CONTAINER and REGION variables in https://github.com/Red-Five/gke-kube-bench-node-scan/blob/master/kube-bench-node-scan.sh to point to your cluster
+Edit the CLUSTER and REGION variables in https://github.com/Red-Five/gke-kube-bench-node-scan/blob/master/kube-bench-node-scan.sh to point to your cluster
 
 Run Script on Google Cloud Shell
 ./kube-bench-node-scan.sh
