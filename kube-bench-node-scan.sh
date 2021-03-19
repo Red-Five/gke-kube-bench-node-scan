@@ -26,7 +26,7 @@ echo 'sleep 30 to allow time for job to complete'
 sleep 30
 
 # Identify the kube-bench pod id
-POD=$(kubectl get pod -l job-name=kube-bench-node -o name)
+POD=$(kubectl get pod -l job-name=kube-bench -o name)
 
 # Download kube-bench pod logs, they contain the inspection report
 kubectl logs ${POD} > kube-bench-node-scan.log
