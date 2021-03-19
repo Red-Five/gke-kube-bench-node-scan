@@ -19,8 +19,8 @@ REGION=#e.g. us-central1
 
 gcloud container clusters get-credentials ${CLUSTER} --region=${REGION}
 
-# Deploy kube-bench to cluster
-kubectl apply -f kube-bench/job-node.yaml
+# Deploy kube-bench to cluster to run the GKE specific tests
+kubectl apply -f kube-bench/job-gke.yaml
 
 echo 'sleep 30 to allow time for job to complete'
 sleep 30
