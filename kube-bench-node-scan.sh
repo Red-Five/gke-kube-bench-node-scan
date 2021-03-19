@@ -32,7 +32,7 @@ POD=$(kubectl get pod -l job-name=kube-bench-node -o name)
 kubectl logs ${POD} > kube-bench-node-scan.log
 
 # Cleanup
-kubectl delete -f kube-bench/job-node.yaml
+kubectl delete -f kube-bench/job-gke.yaml
 rm -rf kube-bench
 
 # Unset logs cmds to console
